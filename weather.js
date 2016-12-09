@@ -29,6 +29,7 @@ function success(position){
         $("#pressure").text(pressure);
 
         $('#outer').children().fadeIn('slow');
+        $('#title').fadeIn('slow');
 
     });
 }
@@ -75,6 +76,7 @@ function date(){
 }
 
 $('#outer').children().hide();
+$('#title').hide();
 
 $(document).ready(function(){
 

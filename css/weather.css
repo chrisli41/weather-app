@@ -13,6 +13,21 @@ body {
 
 }
 
+#title {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 48px;
+    margin-top: 60px;
+    font-family: 'Raleway', serif;
+    color: #484c61 !important;
+    word-spacing: -0.15em;
+    font-weight: 300;
+}
+
+#title span {
+    font-weight: 900;
+}
+
 h1 {
     color: #fff;
 }
@@ -50,7 +65,7 @@ img {
 #outer {
     width: 910px;
     height: 300px;
-    margin: 200px auto;
+    margin: 100px auto;
 
 }
 
